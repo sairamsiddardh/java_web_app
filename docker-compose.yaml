@@ -1,0 +1,9 @@
+---
+version: '3'
+services:
+  myweb:
+    images: nginx
+    ports:
+     - 85:80
+
+
