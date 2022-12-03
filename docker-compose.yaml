@@ -7,5 +7,7 @@ services:
      - 85:80
   mydb:
     image: php
+    ports:
+      - 84:80
 
 
